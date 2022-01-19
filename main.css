@@ -1,0 +1,62 @@
+body{
+    margin: 0
+}
+
+.navbar{
+    background-color:rgba(239, 237, 243, 0.74);
+    color: white;
+    padding: 8px
+}
+
+li{
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+.banner{
+    background-image: url("imagens/capa-site.png");
+    height: 720px;
+    margin-right: -2px;
+    top: 50px;
+}
+
+.content{
+    padding: 50px;
+}
+
+.galeria{
+    padding: 50px;
+}
+.galeria img{ 
+    height: 250px;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    padding: 50px;
+}
+
+@media only screen and (max-width:700px) {
+    body{ 
+        font-size: 30px;
+        }
+
+        .navbar{
+            text-align: center;
+
+        }
+
+        .content{
+            padding: 10px;
+        }
+    
+        .galeria{
+            padding: 10px;  
+    }
+    .galeria img{ 
+        width: 100%;
+        height: auto;
+        
+    }
+}
