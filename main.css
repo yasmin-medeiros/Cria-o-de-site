@@ -44,7 +44,6 @@ li{
 
         .navbar{
             text-align: center;
-
         }
 
         .content{
@@ -53,8 +52,8 @@ li{
     
         .galeria{
             padding: 10px;  
-    }
-    .galeria img{ 
+       }
+        .galeria img{ 
         width: 100%;
         height: auto;
         
